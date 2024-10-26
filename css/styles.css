@@ -1,0 +1,177 @@
+/* HEADER */
+
+* {
+    font-family: Roboto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+
+    background-color: #DCDCDC;
+}
+
+header {
+    background-color: #90EE90;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: #000;
+    font-weight: 600;
+    padding: 32PX;
+    text-decoration: none;
+}
+
+.img {
+    width: 180px;
+    height: 151px;
+}
+
+.img-2 {
+    width: 140px;
+    height: 111px;
+    position: relative;
+    top: 10px;
+}
+
+.home-link {
+    background-color: #fff;
+    width: 352px;
+    height: 97px;
+    cursor: pointer;
+    font-family: Fugaz one;
+    position: relative;
+    right: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px #696969;
+}
+
+.sobre-link {
+    background-color: #fff;
+    width: 352px;
+    height: 97px;
+    cursor: pointer;
+    font-family: Fugaz one;
+    position: relative;
+    right: 180px;
+    border-radius: 20px;
+    box-shadow: 5px 5px #696969;
+}
+
+.contato-link {
+    background-color: #fff;
+    width: 352px;
+    height: 97px;
+    cursor: pointer;
+    font-family: Fugaz one;
+    position: relative;
+    right: 160px;
+    border-radius: 20px;
+    box-shadow: 5px 5px #696969;
+}
+
+.time-link {
+    background-color: #fff;
+    width: 352px;
+    height: 97px;
+    cursor: pointer;
+    font-family: Fugaz one;
+    position: relative;
+    right: 140px;
+    border-radius: 20px;
+    box-shadow: 5px 5px #696969;
+}
+
+.paragrafo-topo {
+    font-family: Libre Baskerville;
+    font-size: 90px;
+    position: relative;
+    right: 120px;
+}
+
+/* MEIO CONTEUDO */
+
+.logotipo {
+    position: relative;
+    left: 1000px;
+}
+
+.info-1 {
+    font-family: Roboto;
+    font-size: 40px;
+    position: relative;
+    left: 220px;
+    bottom: 450px;
+}
+
+.info-2 {
+    font-family: Roboto;
+    position: relative;
+    left: 220px;
+    bottom: 420px;
+    line-height: 1.7;
+}
+
+.conscientizar-1 {
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.ambiental {
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.educacao-ambiental {
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.conscientizar-page1 {
+    font-family: Roboto;
+    font-size: 40px;
+    position: relative;
+    left: 1000px;
+    bottom: 1400px;
+}
+
+.ambiental-page1 {
+    font-family: Roboto;
+    position: relative;
+    left: 1000px;
+    bottom: 1350px;
+    line-height: 1.7;
+}
+
+.praca-do-papa {
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+    left: 1000px;
+    bottom: 1300px;;
+}
+
+.espaco-1 {
+    font-family: Roboto;
+    position: relative;
+    left: 1000px;
+    bottom: 1250px;
+    line-height: 1.7;
+}
+
+.liberdade {
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+    left: 1000px;
+    bottom: 1250px;;
+}
