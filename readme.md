@@ -22,6 +22,8 @@ Através da plataforma, usuários podem aprender, colaborar e propor ações par
 - **Frontend**: HTML5, CSS3, JavaScript, 
 - **Mapas**: API do Google Maps
 
+## Figma 📖
+[Protótipo](https://www.figma.com/design/i2hdpTIfcipMQsdHF9mnVJ/Green-Thinkers?node-id=0-1&node-type=canvas&t=5yZ4ovIuU3raqMLR-0)
 
 ## Como Contribuir
 1. Faça um fork deste repositório.
