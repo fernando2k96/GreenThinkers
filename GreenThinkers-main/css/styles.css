@@ -1,0 +1,194 @@
+/* HEADER */
+* {
+  font-family: Roboto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  background-color: #dcdcdc;
+}
+
+header {
+  background: linear-gradient(to right, #90ee90, #98fb98);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 80px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header nav a {
+  color: #000;
+  font-weight: 600;
+  padding: 32px;
+  text-decoration: none;
+}
+
+.img {
+  width: 180px;
+  height: 151px;
+}
+
+.img-2 {
+  width: 250px;
+  height: 140px;
+  position: relative;
+  right: 50px;
+}
+
+/* Links de Navegação */
+nav a {
+  background-color: #fff;
+  cursor: pointer;
+  font-family: "Fugaz One";
+  border-radius: 20px;
+  box-shadow: 5px 5px #696969;
+}
+
+.paragrafo-topo {
+  font-family: "Libre Baskerville";
+  font-size: 90px;
+}
+
+/* Layout Principal */
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.left-side {
+  width: 40%;
+  padding-right: 10px;
+}
+
+.right-side {
+  p {
+    line-height: 1.7;
+    width: 700px;
+  }
+
+  img {
+    width: 600px;
+  }
+}
+
+.imgs {
+  img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.info-1,
+.conscientizar-page1 {
+  font-family: "Roboto";
+  font-size: 40px;
+  line-height: 1.7;
+}
+
+.info-2,
+.ambiental-page1,
+.espaco-1 {
+  font-family: Roboto;
+  line-height: 1.7;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.conscientizar-1 {
+  width: 450px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ambiental {
+  width: 450px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.educacao-ambiental {
+  width: 450px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mapa iframe {
+  width: 90%;
+  height: 350px;
+  box-shadow: 0 0 0 3px #696969;
+}
+
+/* FOOTER */
+footer {
+  background: linear-gradient(
+    to right,
+    rgba(144, 238, 144, 0.25),
+    rgba(144, 238, 144, 0.5)
+  ); 
+  display: flex;
+  gap: 200px;
+  padding: 24px 70px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  frase {
+    color: #000;
+    position: relative;
+    right: 20px;
+    font-family: Roboto;
+  }
+}
+
+footer .titulo {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+footer nav a {
+  color: #000;
+  display: block;
+  margin-bottom: 16px;
+  text-decoration: none;
+  font-family: Libre + Baskerville;
+}
+
+footer .doc {
+  margin-bottom: 24px;
+  display: block;
+  font-weight: 600;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  margin-bottom: 16px;
+}
+
+footer .titulo2 {
+  margin-bottom: 24px;
+  display: block;
+  font-weight: 600;
+}
+
+footer p {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  margin-bottom: 16px;
+}
