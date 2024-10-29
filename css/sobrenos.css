@@ -223,4 +223,50 @@
 text-align: center;
 }
 
+/* Responsividade */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  header nav a {
+    padding: 16px;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-side,
+  .right-side p {
+    width: 100%;
+  }
+
+  .right-side img {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .paragrafo-topo {
+    font-size: 50px;
+  }
+
+  .info-1,
+  .conscientizar-page1 {
+    font-size: 30px;
+  }
+
+  footer {
+    padding: 16px;
+  }
+}
   
