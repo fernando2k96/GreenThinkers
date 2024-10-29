@@ -192,3 +192,116 @@ footer p {
   display: block;
   margin-bottom: 16px;
 }
+
+/* Media Queries para Responsividade */
+
+/* Smartphones até 768px */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 16px 40px;
+  }
+
+  header nav a {
+    padding: 16px;
+    font-size: 14px;
+  }
+
+  .img {
+    width: 120px;
+    height: auto;
+  }
+
+  .img-2 {
+    width: 150px;
+    height: auto;
+    right: 0;
+  }
+
+  .paragrafo-topo {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .left-side,
+  .right-side p {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .right-side img {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 16px 20px;
+  }
+
+  .conscientizar-1,
+  .ambiental,
+  .educacao-ambiental {
+    width: 100%;
+    height: auto;
+  }
+
+  .mapa iframe {
+    width: 100%;
+  }
+}
+
+/* Tablets e Telas Médias (768px a 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+    padding: 20px 60px;
+  }
+
+  header nav a {
+    padding: 24px;
+    font-size: 16px;
+  }
+
+  .img {
+    width: 150px;
+    height: auto;
+  }
+
+  .img-2 {
+    width: 200px;
+    height: auto;
+    right: 30px;
+  }
+
+  .paragrafo-topo {
+    font-size: 72px;
+    text-align: center;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .left-side,
+  .right-side p {
+    width: 100%;
+  }
+
+  .right-side img {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px 50px;
+  }
+}
