@@ -39,97 +39,64 @@
     right: 50px;
   }
   
-  /* Links de Navegação */
-  nav a {
-    background-color: #fff;
-    cursor: pointer;
-    font-family: "Fugaz One";
-    border-radius: 20px;
-    box-shadow: 5px 5px #696969;
-  }
+  /* Conteudo principal */
   
-  .paragrafo-topo {
-    font-family: "Libre Baskerville";
-    font-size: 90px;
-  }
-  
-  /* Layout Principal */
-  .content-wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    gap: 20px;
-    margin-top: 50px;
-  }
-  
-  .left-side {
-    width: 40%;
-    padding-right: 10px;
-  }
-  
-  .right-side {
-    p {
+  .text-sobre {
+    .info-1 {
+      font-family: "Roboto";
+      font-size: 40px;
       line-height: 1.7;
-      width: 700px;
+      text-align: center;
+  }
+    .info-2 {
+      font-family: Roboto;
+      line-height: 1.7;
+      text-align: center;
+  }
+
+    .info-3 {
+      font-family: "Roboto";
+      font-size: 40px;
+      line-height: 1.7;
+      text-align: center;
     }
-  
-    img {
-      width: 600px;
+
+    .info-4 {
+      font-family: Roboto;
+      line-height: 1.7;
+      text-align: center;
     }
-  }
-  
-  .imgs {
-    img {
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    .info-5 {
+      font-family: "Roboto";
+      font-size: 40px;
+      line-height: 1.7;
+      text-align: center;
     }
-  }
-  
-  .info-1,
-  .conscientizar-page1 {
-    font-family: "Roboto";
-    font-size: 40px;
-    line-height: 1.7;
-  }
-  
-  .info-2,
-  .ambiental-page1,
-  .espaco-1 {
-    font-family: Roboto;
-    line-height: 1.7;
-  }
-  
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-  }
-  
-  .conscientizar-1 {
-    width: 450px;
-    height: 250px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .ambiental {
-    width: 450px;
-    height: 250px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .educacao-ambiental {
-    width: 450px;
-    height: 250px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .mapa iframe {
-    width: 90%;
-    height: 350px;
-    box-shadow: 0 0 0 3px #696969;
-  }
+
+    .info-6 {
+      font-family: Roboto;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    
+    .info-7 {
+      font-family: "Roboto";
+      font-size: 40px;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    .info-8 {
+      font-family: Roboto;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    }
+
+
   
   /* FOOTER */
   
