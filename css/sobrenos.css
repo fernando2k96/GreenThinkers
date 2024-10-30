@@ -132,68 +132,23 @@
   }
   
   /* FOOTER */
+  
   footer {
-    background: linear-gradient(
-      to right,
-      rgba(144, 238, 144, 0.25),
-      rgba(144, 238, 144, 0.5)
-    ); 
+  h1 {
+    background: linear-gradient(to right, #90ee90, #98fb98);
     display: flex;
-    gap: 200px;
-    padding: 24px 70px;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 80px;
+    padding: 24px 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    width: 1694px;
+    height: 100px;
+    font-size: 45px;
   }
-  
-  footer {
-    frase {
-      color: #000;
-      position: relative;
-      right: 20px;
-      font-family: Roboto;
-    }
-  }
-  
-  footer .titulo {
-    display: block;
-    font-weight: 600;
-    margin-bottom: 24px;
-  }
-  
-  footer nav a {
-    color: #000;
-    display: block;
-    margin-bottom: 16px;
-    text-decoration: none;
-    font-family: Libre + Baskerville;
-  }
-  
-  footer .doc {
-    margin-bottom: 24px;
-    display: block;
-    font-weight: 600;
-  }
-  
-  footer a {
-    text-decoration: none;
-    color: #000;
-    display: block;
-    margin-bottom: 16px;
-  }
-  
-  footer .titulo2 {
-    margin-bottom: 24px;
-    display: block;
-    font-weight: 600;
-  }
-  
-  footer p {
-    text-decoration: none;
-    color: #000;
-    display: block;
-    margin-bottom: 16px;
-  }
-
-
+}
 
   /*alteracoes*/
  .documentacao-topo {
