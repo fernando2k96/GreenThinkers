@@ -306,27 +306,27 @@ git
   }
 }
 .links-rapidos {
-  text-align: center; /* Centraliza o conteúdo interno */
-  padding: 20px; /* Ajuste de acordo com seu design */
+  text-align: center;
+  padding: 20px;
 }
 
 .links-rapidos nav {
   display: flex;
-  flex-direction: column; /* Alinha os links um abaixo do outro */
-  align-items: center; /* Centraliza os links horizontalmente */
+  flex-direction: column;
+  align-items: center;
 }
 
 .links-rapidos nav a {
-  text-align: center; /* Alinha o texto dentro de cada link */
-  padding: 10px 20px; /* Adiciona espaçamento interno */
+  text-align: center;
+  padding: 10px 20px;
   font-family: 'Roboto', sans-serif;
   color: #000;
   text-decoration: none;
-  border-radius: 20%; /* Altera o border-radius para 5% */
+  border-radius: 20%;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px; /* Espaço entre os links */
-  width: 120px; /* Define uma largura fixa, ajuste conforme necessário */
+  margin-bottom: 10px;
+  width: 120px;
 }
 
 .titulo {
@@ -336,11 +336,11 @@ git
   display: block;
 }
 header nav a:hover {
-  background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
-  color: #333; /* Cor do texto ao passar o mouse */
+  background-color: #e0e0e0;
+  color: #333;
 }
 .links-rapidos nav a:hover{
-  background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
-  color: #333; /* Cor do texto ao passar o mouse */
+  background-color: #e0e0e0;
+  color: #333;
 
 }

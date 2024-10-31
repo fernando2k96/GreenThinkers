@@ -231,17 +231,15 @@ text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#papeis:first-of-type {
-    margin-top: 0; /* Remove a margem superior apenas na primeira ocorrência */
-}
+
 
 
 
   .devs-container {
     margin-top: 50px;
     display: flex;
-    gap: 50px; /* Espaço entre as fotos */
-    justify-content: center; /* Centraliza horizontalmente na página */
+    gap: 50px;
+    justify-content: center;
 }
 
 .dev-container {
@@ -251,8 +249,7 @@ text-align: center;
 }
 
 .fotodev {
-    width: 450px; /* Ajuste conforme necessário */
-    height: auto;
+    width: 450px;
 }
 
 .nomedev {
@@ -265,8 +262,8 @@ text-align: center;
 .testers-container {
     margin-top: 50px;
     display: flex;
-    gap: 50px; /* Espaço entre as fotos */
-    justify-content: center; /* Centraliza horizontalmente na página */
+    gap: 50px;
+    justify-content: center;
 }
 
 .tester-container {
@@ -276,7 +273,7 @@ text-align: center;
 }
 
 .fototester {
-    width: 450px; /* Ajuste conforme necessário */
+    width: 450px;
     height: auto;
 }
 
@@ -289,8 +286,8 @@ text-align: center;
 .scrums-container {
     margin-top: 50px;
     display: flex;
-    gap: 50px; /* Espaço entre as fotos */
-    justify-content: center; /* Centraliza horizontalmente na página */
+    gap: 50px;
+    justify-content: center;
 }
 
 .scrum-container {
@@ -300,12 +297,12 @@ text-align: center;
 }
 
 .fotoscrum {
-    width: 450px; /* Ajuste conforme necessário */
+    width: 450px;
     height: auto;
 }
 
 .nomescrum {
-    margin-top: 8px; /* Espaçamento entre a foto e o nome */
+    margin-top: 8px;
     font-size: 16px;
     text-align: center;
     font-size: 25px;
@@ -313,8 +310,8 @@ text-align: center;
 .POs-container {
     margin-top: 50px;
     display: flex;
-    gap: 50px; /* Espaço entre as fotos */
-    justify-content: center; /* Centraliza horizontalmente na página */
+    gap: 50px;
+    justify-content: center;
 }
 
 .PO-container {
@@ -324,12 +321,12 @@ text-align: center;
 }
 
 .fotoPO {
-    width: 450px; /* Ajuste conforme necessário */
+    width: 450px;
     height: auto;
 }
 
 .nomePO {
-    margin-top: 8px; /* Espaçamento entre a foto e o nome */
+    margin-top: 8px;
     font-size: 16px;
     text-align: center;
     font-size: 25px;
@@ -341,11 +338,11 @@ text-align: center;
     margin-top: 50px;
 }
 header a {
-    display: inline-block; /* Garante que a área clicável envolva a imagem */
+    display: inline-block;
 }
 
 header a:hover img {
-    opacity: 0.8; /* Diminui a opacidade da imagem ao passar o mouse */
-    transition: opacity 0.3s ease; /* Transição suave para a mudança de opacidade */
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
   
