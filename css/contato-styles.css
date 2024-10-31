@@ -64,9 +64,8 @@ header .contato-topo {
   float: left;
 }
 
-/* LADO ESQUERDO */
-.contato-sobra {
-}
+/* LADO ESQUERDO //////////////////CONTATOSOBRA*/
+
 
 /* LADO DIREITO */
 .right-side {
@@ -280,4 +279,12 @@ footer {
     font-size: 36px;
     padding: 15px;
   }
+}
+header a {
+  display: inline-block; /* Garante que a área clicável envolva a imagem */
+}
+
+header a:hover img {
+  opacity: 0.8; /* Diminui a opacidade da imagem ao passar o mouse */
+  transition: opacity 0.3s ease; /* Transição suave para a mudança de opacidade */
 }

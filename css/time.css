@@ -225,15 +225,127 @@ text-align: center;
 #papeis{
     text-align: center;
     align-content: center;
+    font-size: 50px;
+    margin-top: 50px;
+    background: linear-gradient(to right, #90ee90, #98fb98);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-#fotodev {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 10px; /* Espaço entre as imagens */
+#papeis:first-of-type {
+    margin-top: 0; /* Remove a margem superior apenas na primeira ocorrência */
+}
+
+
+
+  .devs-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px; /* Espaço entre as fotos */
+    justify-content: center; /* Centraliza horizontalmente na página */
+}
+
+.dev-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotodev {
+    width: 450px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.nomedev {
+    margin-top: 8px; /* Espaçamento entre a foto e o nome */
+    font-size: 16px;
     text-align: center;
-  }
-  
-  #fotodev:last-child {
-    margin-right: 0; /* Remove a margem da última imagem */
-  }
+    font-size: 25px;
+}
+
+.testers-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px; /* Espaço entre as fotos */
+    justify-content: center; /* Centraliza horizontalmente na página */
+}
+
+.tester-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fototester {
+    width: 450px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.nometester {
+    margin-top: 8px; /* Espaçamento entre a foto e o nome */
+    font-size: 16px;
+    text-align: center;
+    font-size: 25px;
+}
+.scrums-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px; /* Espaço entre as fotos */
+    justify-content: center; /* Centraliza horizontalmente na página */
+}
+
+.scrum-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotoscrum {
+    width: 450px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.nomescrum {
+    margin-top: 8px; /* Espaçamento entre a foto e o nome */
+    font-size: 16px;
+    text-align: center;
+    font-size: 25px;
+}
+.POs-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px; /* Espaço entre as fotos */
+    justify-content: center; /* Centraliza horizontalmente na página */
+}
+
+.PO-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotoPO {
+    width: 450px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.nomePO {
+    margin-top: 8px; /* Espaçamento entre a foto e o nome */
+    font-size: 16px;
+    text-align: center;
+    font-size: 25px;
+}
+.footer-bar {
+    background: linear-gradient(to right, #90ee90, #98fb98);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+header a {
+    display: inline-block; /* Garante que a área clicável envolva a imagem */
+}
+
+header a:hover img {
+    opacity: 0.8; /* Diminui a opacidade da imagem ao passar o mouse */
+    transition: opacity 0.3s ease; /* Transição suave para a mudança de opacidade */
+}
   
